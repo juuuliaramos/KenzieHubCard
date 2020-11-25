@@ -24,7 +24,7 @@ function App() {
             <Row gutter={16}>
               <Col span={8}>
                 <Card title="Avatar" bordered={false}>
-                  <img src={user.user.avatar_url} />
+                  <img src={user.user.avatar_url} alt="avatar" />
                 </Card>
               </Col>
 
